@@ -8,5 +8,5 @@ end
 
 
 def assign_rooms(array)
-  array.each_with_index { |name, index| return "Hello, #{name}! You'll be assigned to room #{index}" } ##//put name:index assignment
+  array.each_with_index { |name, index| "Hello, #{name}! You'll be assigned to room #{index}" } ##//put name:index assignment
 end
